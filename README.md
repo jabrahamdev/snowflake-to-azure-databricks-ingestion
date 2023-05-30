@@ -1,7 +1,22 @@
 # Snowflake to Azure Databricks Data Ingestion
 
+```bash
+Snowflake Database -> Snowflake JDBC Driver -> Azure Databricks (Spark Cluster)
+                                  |
+                                  |  
+                        Python Script (snowflake_to_databricks.py)
+                                  |
+                                  |
+                             Parquet File
+                                  |
+                                  |
+                           Azure Storage
+
+```
 
 This project provides an example implementation for reading data from Snowflake into Azure Databricks. It leverages Snowflake's JDBC connector and the PySpark API provided by Databricks to establish a connection, execute queries, and fetch data from Snowflake into Databricks.
+
+
 
 ## Prerequisites
 
