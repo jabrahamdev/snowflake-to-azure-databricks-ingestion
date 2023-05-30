@@ -15,7 +15,7 @@ Snowflake JDBC driver (downloaded and available in your environment).
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/snowflake-to-azure-databricks.git
+git clone https://github.com/jabrahamdev/snowflake-to-azure-databricks-ingestion.git
 ```
 
 Install the required Python dependencies using pip:
