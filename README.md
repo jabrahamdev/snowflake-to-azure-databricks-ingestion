@@ -154,9 +154,15 @@ SNOWFLAKE_CONFIG = {
 In this example, additional parameters are included for the Snowflake connection:
 
 **schema:** The Snowflake schema to use.
+
 **role:** The Snowflake role to use.
+
 **timezone:** The timezone for Snowflake connections.
+
 **query_result_format:** The result format for Snowflake query results.
+
 **query_result_format_version:** The version of the result format.
+
 **query_result_s3_bucket:** The S3 bucket to store Snowflake query results.
+
 **query_result_s3_path:** The S3 path to store Snowflake query results.
