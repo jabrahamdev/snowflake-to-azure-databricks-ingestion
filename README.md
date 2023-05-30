@@ -5,9 +5,9 @@ This project provides an example implementation for reading data from Snowflake 
 
 ## Prerequisites
 
-Azure Databricks workspace with an active cluster.
-Snowflake account and access credentials.
-Snowflake JDBC driver (downloaded and available in your environment).
+- Azure Databricks workspace with an active cluster.
+- Snowflake account and access credentials.
+- Snowflake JDBC driver (downloaded and available in your environment).
 
 
 ## Setup Instructions
