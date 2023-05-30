@@ -12,18 +12,6 @@ This project provides an example implementation for reading data from Snowflake 
 
 ## Setup Instructions
 
-Clone the repository:
-
-```bash
-git clone https://github.com/jabrahamdev/snowflake-to-azure-databricks-ingestion.git
-```
-
-Install the required Python dependencies using pip:
-
-```bash
-pip install snowflake-connector-python pyspark
-```
-
 Upload the Snowflake JDBC driver JAR file to your Databricks workspace. You can do this by navigating to the Workspace sidebar, selecting your cluster, and clicking on Create > Library. Choose the uploaded JAR file and attach it to your cluster.
 
 Copy the config_template.py file and rename it to config.py:
