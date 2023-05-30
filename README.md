@@ -64,13 +64,13 @@ SNOWFLAKE_CONFIG = {
 
 This script performs the following tasks:
 
-Establishes a connection to Snowflake using the Snowflake JDBC driver.
+- Establishes a connection to Snowflake using the Snowflake JDBC driver.
 
-Executes a SQL query in Snowflake.
+- Executes a SQL query in Snowflake.
 
-Fetches the query results from Snowflake into a PySpark DataFrame in Azure Databricks.
+- Fetches the query results from Snowflake into a PySpark DataFrame in Azure Databricks.
 
-Displays the fetched data in the PySpark DataFrame.
+- Displays the fetched data in the PySpark DataFrame.
 
 The script uses the Snowflake JDBC driver to connect to the Snowflake account specified in the config.py file. It then executes the SQL query specified in the query variable, which can be customized according to your specific requirements. The script fetches the results of the query into a PySpark DataFrame using the createDataFrame() method, leveraging the Snowflake connector's integration with PySpark. Finally, it displays the data in the DataFrame using the show() method.
 
